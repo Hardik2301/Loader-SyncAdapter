@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Loader Example</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="account_type">com.imac.example</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="new_item_title">New item title</string>
+    <string name="add_item">Add item</string>
+    <string name="list_empty">Your shopping list is empty</string>
+    <string name="refresh">Refresh</string>
+    <string name="shopping_list">Shopping List</string>
+
+</resources>
