@@ -62,7 +62,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter implements AccountU
         }
         Log.e("SyncAdapter: ", "onPerformSync");
         //String URL = "http://jsonplaceholder.typicode.com/users";
-        String URL = "http://YOUR_DOMAIN/API/tempUserlist.php";
+        String URL = "http://hardikpatel.co.nf/API/tempUserlist.php";
         Log.e("SyncAdapter: ", "Token : "+authToken);
         HashMap<String,String> map=new HashMap<String, String>();
         map.put("token",authToken);

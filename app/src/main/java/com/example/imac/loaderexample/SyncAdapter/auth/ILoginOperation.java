@@ -14,7 +14,7 @@ public class ILoginOperation implements LoginOpreation {
     @Override
     public String signUp(String email, String password) throws Exception {
         Log.e("signUp: ", "called");
-        String URL = "http://YOUR_DOMAIN/API/testLogin.php";
+        String URL = "http://hardikpatel.co.nf/API/testLogin.php";
         HashMap<String,String> map=new HashMap<String, String>();
         map.put("email",email);
         map.put("password",password);
@@ -25,7 +25,7 @@ public class ILoginOperation implements LoginOpreation {
     @Override
     public String signIn(String email, String password) throws Exception {
         Log.e("signIn: ", "called");
-        String URL = "http://YOUR_DOMAIN/API/testLogin.php";
+        String URL = "http://hardikpatel.co.nf/API/testLogin.php";
         HashMap<String,String> map=new HashMap<String, String>();
         map.put("email",email);
         map.put("password",password);
